@@ -21,7 +21,6 @@ Geico is looking for the best contributing features that will predict the likeli
 
 
 ### Original Model
-![liveable_chart](./notebooks/images/liveable_chart.png)
 
 
 The first set of data used was the numeric aspect of the data, such as, the speed limit, crash hour, and crash day of the week. The data was trained and used alongside Logistic Modeling in cross validation to find the R^2. The Model found that with the numerical features a crash could be predictable up to about 57%. 
@@ -29,7 +28,6 @@ The first set of data used was the numeric aspect of the data, such as, the spee
 
 ### Categorical Model 
 
-![Aboveliveable_chart](./notebooks/images/Aboveliveable_chart.png)
 
 The second set of data utilized the categorical data, such as, weather condition, lighting, and damage. The categorical data was put though a OneHotEncoder in order to apply a numeric value to them. The data was trained and used alongside Logistic Modeling in cross validation to find the R^2. The Model droped from predicting up to about 57% to only predicting up to about 53%.
 
