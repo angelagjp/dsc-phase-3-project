@@ -26,6 +26,8 @@ Initially, there was an attempt to check the class balance of the target data. T
 
 The first 2 models were logistical models using different aspects of the data. The inital model only incorporated the numerical features from the DataFrame. The accuracy score was about 57%. In an attempt to increase the predictivity the categorical features were added in the second model. This addition did not help the model and dropped the accuracy model to 54%. Finally, a DecisionTreeRegression model was used as an attempt to change the predictive model and increaset the accuracy score. The score increase from the second logistical model but was still 1% less then the original model, accuracy score of 55%.
 
+![image](https://user-images.githubusercontent.com/62761238/119340243-48407c00-bc60-11eb-88de-7ac19d4c4a19.png)
+
 
 ### Conclusions
 
