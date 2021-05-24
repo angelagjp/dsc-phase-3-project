@@ -22,6 +22,7 @@ Geico would like a way to predict the car crash cases that they should presue an
 
 Initially, there was an attempt to check the class balance of the target data. The target data includes has two values, 0 for outside circumstances and 1 for Driver's fault. The class balance check found that the balance is very close to even with a slight bias to false positive. The balance was not adjusted because the sloght balance could benifit Gieco with finding at fauld Drivers. 
 
+![](images/class_balance.png)
 
 ![class_balance](./dsc-phase-3-project/images/class_balance.png)
 
